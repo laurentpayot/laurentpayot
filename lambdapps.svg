@@ -34,7 +34,7 @@
             position: absolute;
             top: 20px;
             <!--! GitHub ReadMe rendering different from preview -->
-            margin-left: 20px;
+            margin-left: 40px;
             animation: 4s ease-out forwards logo;
         }
         @keyframes logo {
