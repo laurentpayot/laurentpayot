@@ -33,7 +33,7 @@
         .logo {
             position: absolute;
             top: 20px;
-            margin-left: 77px;
+            margin-left: 100px;
             animation: 4s ease-out forwards logo;
         }
         @keyframes logo {
