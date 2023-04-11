@@ -1,0 +1,93 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100%" height="100%">
+<div xmlns="http://www.w3.org/1999/xhtml">
+
+
+    <style>
+        .container {
+            width: 100%;
+            height: 300px;
+            background-color: white;
+            color: #0540b6;
+        }
+        .center-xy {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        h1 {
+            margin-top: 150px;
+            font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 0.3em;
+            opacity: 0;
+            animation: 2s ease-in 2s forwards brand;
+        }
+        @keyframes brand {
+            to { opacity: 1; }
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            margin-left: 38px;
+            animation: 4s ease-out forwards logo;
+        }
+        @keyframes logo {
+            from { transform: translate(-40px, -40px) scale(0, 0); }
+        }
+        .logo i {
+            position: absolute;
+            background-color: #0540b6;
+            animation: 4s ease-out forwards i;
+            height: 24px;
+            width: 300px;
+        }
+        .logo i::before {
+            content: "";
+            position: absolute;
+            right: 298px;
+            border-bottom: 24px solid;
+            border-left: 14px solid transparent;
+            border-right: 2px solid;
+        }
+        .logo i::after {
+            content: "";
+            position: absolute;
+            left: 298px;
+            border-top: 24px solid;
+            border-right: 14px solid transparent;
+            border-left: 2px solid;
+        }
+        @keyframes i {
+            to { transform: rotate(-120deg) scale(0.5, 0.5) translate(150px); }
+        }
+
+        @media (prefers-reduced-motion) {
+            h1 {
+                opacity: 1;
+            }
+            .logo, .logo i {
+                animation-duration: 0s;
+            }
+        }
+
+    </style>
+
+    <div class="container">
+        <div class="center-xy">
+            <div class="logo center-xy">
+                <i><i><i><i><i><i>
+                </i></i></i></i></i></i>
+            </div>
+            <h1>Lambdapps</h1>
+        </div>
+    </div>
+
+
+</div>
+</foreignObject>
+</svg>
