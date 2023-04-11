@@ -18,7 +18,7 @@
             height: 100%;
         }
         h1 {
-            margin-top: 165px;
+            margin-top: 170px;
             font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
             font-weight: normal;
             text-transform: uppercase;
@@ -32,7 +32,7 @@
         }
         .logo {
             position: absolute;
-            top: 35px;
+            top: 30px;
             <!--! GitHub ReadMe rendering different from preview -->
             margin-left: 72px;
             animation: 4s ease-out forwards logo;
