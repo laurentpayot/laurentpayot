@@ -66,7 +66,6 @@
         @keyframes i {
             to { transform: rotate(-120deg) scale(0.5, 0.5) translate(150px); }
         }
-
         @media (prefers-reduced-motion) {
             h1 {
                 opacity: 1;
@@ -75,7 +74,6 @@
                 animation-duration: 0s;
             }
         }
-
     </style>
 
     <div class="container">
